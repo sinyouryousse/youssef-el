@@ -1,0 +1,37 @@
+/* Palette Sportive */
+:root {
+  --primary-color: #1e90ff;   /* Bleu vif */
+  --secondary-color: #ff4500; /* Orange vif */
+  --accent-color: #32cd32;    /* Vert lumineux */
+  --background-color: #f4f4f4; /* Gris clair */
+  --text-color: #333;          /* Couleur texte standard */
+  --button-color: #ff6347;     /* Rouge tomate pour boutons */
+  --button-hover: #e5533d;     /* Hover dyal bouton */
+}
+
+/* Exemple d'utilisation */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+button {
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
